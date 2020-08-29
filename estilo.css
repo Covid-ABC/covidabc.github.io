@@ -4,13 +4,26 @@ body,
 .capa {
   height: 100%;
   overflow: auto;
+  margin-bottom: -50px;
 }
 
-body {
+.body-index {
   background: url("imagens/fundo.png");
+  background-color: rgb(112, 112, 255);
+  background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+}
+
+.body-equipe { 
+  background-color: rgb(112, 112, 255);
+  background-size: cover;
+}
+
+.body-sobre{
+   background-color: rgb(112, 112, 255);
+  background-size: cover;
 }
 
 /* -- Barra de navegação -- */
@@ -71,11 +84,13 @@ footer .nav a:hover {
 #servicos-sobre {
   background: white;
   margin-top: 150px;
+  margin-bottom: 90px;
   padding-bottom: 30px;
   margin-right: 50px;
   margin-left: 50px;
   border-radius: 3%;
 }
+
 /* -- recursos -- */
 #recursos {
   padding-top: 20px;
@@ -96,6 +111,11 @@ footer {
 
 .flex.flex-4 .box {
   width: 21%;
+}
+
+.rodape-infos{
+  text-align: center;
+  margin-right: 80px;
 }
 
 /* box - caixa */
@@ -228,53 +248,18 @@ h3 {
 }
 
 /* Aba contato */
-*{
-  margin: 0;
-  padding: 0;
-  font-family: "montserrat",sans-serif;
-}
-.body-contato{
-  background: rgb(253, 253, 253);
-}
+
 .container-contato{
-  background: url('imagens/fundo.png') no-repeat center;
+  background-color: rgb(112, 112, 255);
   background-size: cover;
-  padding: 203px 40px;
+  padding: 200px 40px;
   text-align: center;
   color: white;
 }
 .container-contatp p {
-  max-width: 600px;
-  margin: 40px auto;
   font-size: 15px;
   font-weight: 300;
 }
-.email-box{
-  height: 40px;
-  justify-content: center;
-  display: flex; 
-}
-.email-box i{
-  background: #2f3542;
-  width: 40px;
-  line-height: 40px;
-}
-.tbox,.btn{
-  border: none;
-  outline: none;
-}
-.tbox{
-  width: 0px;
-  transition: 0.6s;
-}
-.email-box:hover > .tbox,.tbox:focus{
-  width: 260px;
-  padding: 0 10px;
-}
-.btn{
-  background: #2f3542;
-  color: white;
-  padding: 0 10px;
-  text-transform: uppercase;
-  cursor: pointer;
+.instagram-contato{
+  margin-top: 20px;
 }
